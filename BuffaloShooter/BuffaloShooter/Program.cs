@@ -12,8 +12,8 @@ namespace BuffaloShooter
 
         public static void Shoot(int x, int y)
         {
-            //TODO Implement this
-            //  HELP ME NUZ pls :DD How do I do this ?
+            //TODO
+            
         }
     }
 
@@ -72,7 +72,7 @@ namespace BuffaloShooter
                 y++;
             } else
             {
-                // move diagonally right and left at the same time.
+                // move diagonally right and down at the same time.
                 if(x+1< Field.width && y+1 < Field.height)
                 {
                     x++;
